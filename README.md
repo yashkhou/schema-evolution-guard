@@ -34,3 +34,12 @@ python -m unittest discover -s tests -v
 ```
 
 MIT licensed.
+
+
+## v0.1.1
+
+**Broader compatibility analysis.** Compatibility checks now cover union types, array items, additionalProperties, collection/string/object bounds, and pattern changes in addition to properties, required fields, enums and numeric ranges.
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```

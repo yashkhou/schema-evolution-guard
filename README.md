@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **This project now lives in [agent-reliability-lab](https://github.com/yashkhou/agent-reliability-lab/tree/main/packages/schema-evolution-guard).** Its full history was moved there and this repository is archived.
+>
+> `pip install "git+https://github.com/yashkhou/agent-reliability-lab#subdirectory=packages/schema-evolution-guard"`
+
+
 # schema-evolution-guard
 
 Classify breaking versus compatible changes in JSON-schema tool contracts before agents discover them at runtime.
